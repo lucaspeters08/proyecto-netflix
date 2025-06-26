@@ -1,0 +1,376 @@
+
+body {
+  background-color: black;
+}
+/* navbar */
+.botonera {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+#logo {
+  margin: 20px;
+  display: flex;
+  justify-content: space-between;
+}
+.traduccion {
+  background-color: rgb(8, 8, 8);
+  color: rgb(247, 244, 244);
+  padding: 10px 20px;
+  font-size: 16px;
+  border-radius: 8px;
+  border: 1px solid white;
+}
+.inicio-sesion {
+  background-color: rgb(255, 0, 0);
+  color: rgb(247, 244, 244);
+  padding: 10px 20px;
+  font-size: 16px;
+  border-radius: 8px;
+  border: 1px solid red;
+}
+/* main */
+main {
+  margin: 0%;
+  padding: 0%;
+}
+.fondo img {
+  border-radius: 10px;
+}
+.fondo {
+  display: grid;
+  place-items: center;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.texto {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  flex-direction: column;
+  color: rgb(255, 255, 255);
+  width: 100%;
+  gap: 10px;
+  position: absolute;
+  text-shadow: 2px 2px 4px rgba(0,0,0,0.5);
+  transition: text-shadow 0.5s;
+}
+.texto:hover{
+    text-shadow: 2px 2px 10px black;
+}
+h1 {
+  font-size: 4rem;
+  font-family: system-ui;
+}
+h2 {
+  font-family: sans-serif;
+  font-size: 1.8rem;
+}
+h3 {
+  font-family: sans-serif;
+  font-size: 1.4rem;
+}
+/* login */
+.iniciodesesion1 {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  text-align: center;
+}
+.correo input {
+  font-size: 1.5rem;
+  padding: 15px;
+  width: 400px;
+  border-radius: 8px;
+  border: 2px solid white;
+  background-color: rgb(51, 46, 46);
+  text-align: left;
+  color: rgb(255, 255, 255);
+  display: flex;
+}
+.ingreso input {
+  font-size: 1.5rem;
+  padding: 15px;
+  width: 240px;
+  border-radius: 8px;
+  border: 2px solid white;
+  background-color: #e50914;
+  color: white;
+  cursor: pointer;
+  text-align: center;
+  display: flex;
+  
+}
+/* tendencias */
+#p1 {
+  display: flex;
+  font-size: 3rem;
+  font-family: sans-serif;
+  margin-left: 10%;
+  color: white;
+  padding: 0%;
+  margin-top: 5%;
+}
+.tendencias {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  gap: 10px;
+  width: 100%;
+  padding: 20px;
+}
+.tedencia {
+  display: flex;
+  flex-direction: row;
+}
+#tendencia1 {
+  display: flex;
+}
+#tendencia2 {
+  display: flex;
+}
+#tendencia3 {
+  display: flex;
+}
+#tendencia4 {
+  display: flex;
+}
+#tendencia5 {
+  display: flex;
+}
+.tendencia img {
+  border-radius: 16px;
+  aspect-ratio: 3/4;
+  object-fit: cover;
+}
+/* mas motivos para unirte */
+.masmotivos {
+  font-family: sans-serif;
+  font-size: 3rem;
+  margin-left: 168px;
+  color: white;
+}
+.motivos {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 10px;
+  margin-left: 60px;
+}
+.caja {
+  width: 305px;
+  height: 180px;
+  background-color: rgba(255, 255, 255, 0.2);
+  border-radius: 15px;
+  text-shadow: 2px 2px 4px rgba(0,0,0,0.5);
+  transition: text-shadow 0.5s;
+}
+.caja:hover{
+  text-shadow: 2px 2px 10px black;
+}
+.info {
+  color: white;
+  font-size: 20px;
+  font-family: sans-serif;
+  margin-left: 10px;
+}
+/* preguntas frecuentes */
+.preguntas {
+  font-family: sans-serif;
+  font-size: 3rem;
+  margin-left: 168px;
+  color: white;
+
+}
+.preguntas-frec {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  margin-left: 60px;
+}
+.preg {
+  width: 1100px;
+  height: 90px;
+  background-color: rgba(255, 255, 255, 0.2);
+  display: flex;
+}
+
+.preg-txt {
+  color: white;
+  font-size: 24px;
+  font-family: sans-serif;
+  display: flex;
+  margin-left: 10px;
+  text-shadow: 2px 2px 4px rgba(0,0,0,0.5);
+  transition: text-shadow 0.5s;
+}
+.preg-txt:hover{
+  text-shadow: 2px 2px 10px black;
+}
+/* otro login */
+.iniciodesesion {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  text-align: center;
+}
+.login-txt {
+  text-align: center;
+  color: rgb(255, 255, 255);
+  width: 100%;
+  font-family: sans-serif;
+  font-size: 1.4rem;
+}
+.correo2 input {
+  font-size: 1.5rem;
+  padding: 15px;
+  width: 600px;
+  border-radius: 8px;
+  border: 2px solid white;
+  background-color: rgb(51, 46, 46);
+  text-align: left;
+  color: rgb(255, 255, 255);
+  display: flex;
+}
+.ingreso2 input {
+  font-size: 1.5rem;
+  padding: 15px;
+  width: 240px;
+  border-radius: 8px;
+  border: 2px solid white;
+  background-color: #e50914;
+  color: white;
+  cursor: pointer;
+  text-align: center;
+  display: flex;
+}
+footer{
+  display: flex;
+  margin-left: 10px;
+  color:antiquewhite;
+  font-family: sans-serif;
+  flex-direction: column;
+}
+.contacto{
+  display: flex;
+  justify-content:space-around;
+
+}
+.ft{
+  display:flex;
+  flex-direction: row;
+  justify-content:space-evenly;
+}
+
+@media (width < 425px) {
+  #logo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .fondo img {
+    width: 100%;
+    height: 280px;
+  border-radius: 16px;
+  aspect-ratio: 3/4;
+  object-fit: cover;
+  }
+  h1 {
+    font-size: 1rem;
+    top: 15%;
+  }
+
+  h2 {
+    font-size: 0.8rem;
+    top: 60%;
+  }
+
+  h3 {
+    font-size: 0.8rem;
+    top: 68%;
+  }
+  .iniciodesesion1 {
+    width: auto;
+    height: auto;
+  }
+
+  .correo input {
+    width: 90%;
+    height: auto;
+    font-size: 0.7rem;
+  }
+  .ingreso input {
+    width: 90%;
+    height: auto;
+    font-size: 0.7rem;
+  }
+
+  .botonera {
+    gap: 5px;
+  }
+  #p1, .masmotivos, .preguntas{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 2rem;
+    margin: 5%;
+    align-content: center;
+  }
+  .tendencias {
+    flex-direction: column;
+    align-items: center;
+  }
+  .motivos {
+    flex-direction: column;
+    margin-left: 0;
+    gap: 15px;
+  }
+
+  .caja1,
+  .caja2,
+  .caja3,
+  .caja4 {
+    width: 90%;
+    height: auto;
+    padding: 10px;
+  }
+
+  .preg {
+    width: 90%;
+    height: auto;
+    padding: 10px
+  }
+
+  .preguntas-frec {
+    margin-left: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .correo2 input {
+    width: 90%;
+    height: auto;
+    font-size: 0.7rem;
+  }
+
+  .ingreso2 input {
+    width: 90%;
+    height: auto;
+    font-size: 0.7rem;
+  }
+
+  .iniciodesesion {
+    width: auto;
+    height: auto;
+  }
+.ft{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+}
