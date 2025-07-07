@@ -1,135 +1,208 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Netflix Argentina</title>
     <link rel="stylesheet" href="style.css" />
-</head>
-<body>
+  </head>
+
+  <body>
     <header>
-    <div id="logo">
-        <a href="index.html"
-              ><img
-                src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/7a/Logonetflix.png/960px-Logonetflix.png"
-                alt="Netflix"
-                width="160px"
-                height="auto"/></a>
-    <div class="botonera">
-        <button class="traduccion">Español</button>
-        <button class="inicio-sesion">Iniciar Sesión</button>
-    </div>
-    </div>
+      <div id="logo">
+        <a href="index.html">
+          <img
+            src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/7a/Logonetflix.png/960px-Logonetflix.png"
+            alt="Netflix"
+            width="160px"
+            height="auto"
+          />
+        </a>
+        <div class="botonera">
+          <button class="traduccion">Español</button>
+          <button class="inicio-sesion">Iniciar Sesión</button>
+        </div>
+      </div>
     </header>
+
     <main>
-<div class="fondo">  
-  <img src="https://www.notebookcheck.it/fileadmin/Notebooks/News/_nc3/netflixteaser.png" width="100%" height="auto"> 
-  <div class="texto">
-          <h1>
-            Peliculas y series<br />
-            ilimitadas y mucho<br />
-            mas
-          </h1>
-      
-          <h2>
-            A partir de ARS 5,999. Cancela cuando quieras.
-          </h2>
+      <div class="fondo">
+        <img
+          src="https://www.notebookcheck.it/fileadmin/Notebooks/News/_nc3/netflixteaser.png"
+          width="100%"
+          height="auto"
+        />
+        <div class="texto">
+          <h1>Peliculas y series<br />ilimitadas y mucho<br />mas</h1>
+          <h2>A partir de ARS 5,999. Cancela cuando quieras.</h2>
           <h3>
             ¿Quieres ver Netflix ya? Ingresa tu email para crear una cuenta o
             reiniciar tu membresía de Netflix.
           </h3>
-          
           <div class="iniciodesesion1">
-          <div class="correo">
-            <label for="Nombre de Usuario"></label>
-            <input type="text" id="username" placeholder="Email" ><br><br>
-          </div>
-          <div class="ingreso">
-            <label for="ingreso"></label>
-            <input type="submit" id="ingreso" value="Comenzar  >"><br><br>
+            <div class="correo">
+              <input
+                type="text"
+                id="username"
+                placeholder="Email"
+              /><br /><br />
+            </div>
+            <div class="ingreso">
+              <input
+                type="submit"
+                id="ingreso"
+                value="Comenzar  >"
+              /><br /><br />
+            </div>
           </div>
         </div>
-        </div>        
+      </div>
+    </main>
 
-</div>
-        </main>
-      <p id="p1">Tendencias</p>
-        <div class="tendencias">
-      <div class="tendencia" id="tendencia1">
-        <img src="https://pics.filmaffinity.com/el_eternauta-564337864-large.jpg" alt="El Eternauta" width="200px" height="auto" ><span class="number0">1</span>
+    <p id="p1">Tendencias</p>
+    <section class="tendencias-container">
+      <div class="tendencias">
+        <div class="tendencia" id="tendencia1">
+          <img
+            src="https://pics.filmaffinity.com/el_eternauta-564337864-large.jpg"
+            alt="El Eternauta"
+            width="198px"
+            height="auto"
+          />
+        </div>
+        <div class="tendencia" id="tendencia2">
+          <img
+            src="https://resizer.glanacion.com/resizer/v2/la-miniserie-de-netflix-esta-compuesta-de-cuatro-MM4EU27DJ5B6ZMIOM6ILAYH4PI.jpg?auth=caad0bc37c3ec58e06d0798ba24083be1bcdf2f61c04d9ea2d50300ef8802bd3&width=780&height=1155&quality=70&smart=true"
+            alt="Adolescencia"
+            width="198px"
+            height="auto"
+          />
+        </div>
+        <div class="tendencia" id="tendencia3">
+          <img
+            src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT9xOAMPbUFuIMTMegOFjCuVcqS5DT8ZK3YKQ&s"
+            alt="karol G"
+            width="198px"
+            height="auto"
+          />
+        </div>
+        <div class="tendencia" id="tendencia4">
+          <img
+            src="https://m.media-amazon.com/images/M/MV5BMTVlYmRhMWQtNmE0Yi00ODM1LWEzMWEtNTQzZGZhODRmZTE0XkEyXkFqcGc@._V1_.jpg"
+            alt="You"
+            width="198px"
+            height="auto"
+          />
+        </div>
+        <div class="tendencia" id="tendencia5">
+          <img
+            src="https://www.diariodecultura.com.ar/wp-content/uploads/2024/09/24-1.png"
+            alt="envidiosa"
+            width="198px"
+            height="auto"
+          />
+        </div>
       </div>
-      <div class="tendencia" id="tendencia2">
-        <img src="https://resizer.glanacion.com/resizer/v2/la-miniserie-de-netflix-esta-compuesta-de-cuatro-MM4EU27DJ5B6ZMIOM6ILAYH4PI.jpg?auth=caad0bc37c3ec58e06d0798ba24083be1bcdf2f61c04d9ea2d50300ef8802bd3&width=780&height=1155&quality=70&smart=true" alt="Adolescencia" width="198px" height="auto"><span class="number1">2</span>
+      <div class="botones">
+        <button class="arrow left">◀</button>
+        <button class="arrow right">▶</button>
       </div>
-      <div class="tendencia" id="tendencia3">
-        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT9xOAMPbUFuIMTMegOFjCuVcqS5DT8ZK3YKQ&s" alt="karol G" width="198px" height="auto"><span class="number2">3</span>
-      </div>
-      <div class="tendencia" id="tendencia4">
-        <img src="https://m.media-amazon.com/images/M/MV5BMTVlYmRhMWQtNmE0Yi00ODM1LWEzMWEtNTQzZGZhODRmZTE0XkEyXkFqcGc@._V1_.jpg" alt="You" width="198px" height="auto"><span class="number3">4</span>
-      </div>
-      <div class="tendencia" id="tendencia5">
-        <img src="https://www.diariodecultura.com.ar/wp-content/uploads/2024/09/24-1.png" alt="envidiosa" width="198px" height="auto"><span class="number4">5</span>
-      </div>  
+    </section>
 
+    <p class="masmotivos">Mas motivos para unirte</p>
+    <div class="motivos">
+      <div class="caja">
+        <p class="info">
+          Disfruta en tu TV<br />Ve en smart TV, PlayStation,<br />
+          Xbox, Chromecast, Apple TV, <br />
+          reproductores de Blu-ray <br />
+          y más.
+        </p>
+      </div>
+      <div class="caja">
+        <p class="info">
+          Descarga tus series para <br />
+          verlas offline<br />Guarda tu contenido favorito <br />
+          y siempre tendrás algo <br />para ver.
+        </p>
+      </div>
+      <div class="caja">
+        <p class="info">
+          Disfruta donde quieras<br />Películas y series ilimitadas<br />
+          en tu teléfono, tablet, laptop<br />
+          y TV.
+        </p>
+      </div>
+      <div class="caja">
+        <p class="info">
+          Crea perfiles para niños<br />Los niños vivirán aventuras con sus
+          personajes favoritos en un espacio diseñado exclusivamente para ellos,
+          gratis con tu membresía.
+        </p>
+      </div>
     </div>
 
-    </div>
-
-      <p class="masmotivos">Mas motivos para unirte</p>
-      <div class="motivos">
-      <div class="caja">
-       <p class="info"> Disfruta en tu TV<br>Ve en smart TV, PlayStation,<br> Xbox, Chromecast, Apple TV, <br> reproductores de Blu-ray <br> y más.</p>
-      </div>
-   
-      <div class="caja">
-       <p class="info">Descarga tus series para <br> verlas offline<br>Guarda tu contenido favorito <br> y siempre tendrás algo <br>para ver.</p>
-      </div>
-   
-      <div class="caja">
-       <p class="info">Disfruta donde quieras<br>Películas y series ilimitadas<br> en tu teléfono, tablet, laptop<br> y TV.</p>
-      </div>
-   
-      <div class="caja">
-       <p class="info">Crea perfiles para niños<br>Los niños vivirán aventuras con sus personajes favoritos en un espacio diseñado exclusivamente para ellos, gratis con tu membresía.</p>
-      </div>
-    </div>
-   
-      <p class="preguntas">Preguntas frecuentes</p>
-      <div class="preguntas-frec">
-
+    <p class="preguntas">Preguntas frecuentes</p>
+    <div class="preguntas-frec">
       <div class="preg">
-        <p class="preg-txt">¿Que es Netflix?</p>
-       <p class="simbolo" onclick="toggleCard(this)">+</p>
+        <p class="preg-txt">¿Qué es Netflix?</p>
+        <button class="simbolo" onclick="mostrar(this)">+</button>
+      </div>
+      <div class="contenido">
+        <p>
+        Netflix es un servicio de streaming que ofrece una gran variedad de películas, series y <br>documentales premiados en casi cualquier pantalla conectada a internet.<br><br>Todo lo que quieras ver, sin límites ni comerciales, a un costo muy accesible. Siempre hay algo<br> nuevo por descubrir, ¡y todas las semanas se agregan más películas y series!
+            
+        </p>
       </div>
 
       <div class="preg">
-       <p class="preg-txt">¿Cuanto cuesta Netflix?</p>
-       <p class="simbolo" onclick="toggleCard(this)">+</p>       
-
+        <p class="preg-txt">¿Cuánto cuesta Netflix?</p>
+        <button class="simbolo" onclick="mostrar(this)">+</button>
       </div>
-   
-      <div class="preg">
-       <p class="preg-txt">¿Donde puedo ver Netflix</p>
-       <p class="simbolo" onclick="toggleCard(this)">+</p>
-
+      <div class="contenido">
+        <p>
+          Disfruta Netflix en tu smartphone, tablet, smart TV, laptop o dispositivo de streaming, todo por <br> una tarifa plana mensual. Planes desde $ 7.199 hasta $ 15.999 al mes (sin impuestos incluidos).<br> Sin costos adicionales ni contratos.
+        </p>
       </div>
-   
-      <div class="preg">
-       <p class="preg-txt">¿Como cancelo?</p>
-       <p class="simbolo" onclick="toggleCard(this)">+</p>
 
-      </div>
-   
       <div class="preg">
-       <p class="preg-txt">¿Que puedo ver en Netflix?</p>
-       <p class="simbolo" onclick="toggleCard(this)">+</p>
+        <p class="preg-txt">¿Dónde puedo ver Netflix?</p>
+        <button class="simbolo" onclick="mostrar(this)">+</button>
+      </div>
+      <div class="contenido">
+        <p>
+          Disfruta donde quieras, cuando quieras. Inicia sesión en tu cuenta de Netflix para ver contenido al instante a través de netflix.com desde tu computadora personal o en cualquier dispositivo con conexión a internet que cuente con la app de Netflix, como smart TV, smartphones, tablets, reproductores multimedia y consolas de juegos.<br><br>Además, puedes descargar tus series favoritas con la app para iOS o Android. Con la función de descarga, puedes ver contenido donde vayas y sin conexión a internet. Lleva Netflix contigo a donde sea.
+        </p>
+      </div>
 
-      </div>
-   
       <div class="preg">
-       <p class="preg-txt">¿Es bueno Netflix para los niños?</p>
-       <p class="simbolo" onclick="toggleCard(this)">+</p>
-       </div>
+        <p class="preg-txt">¿Cómo cancelo?</p>
+        <button class="simbolo" onclick="mostrar(this)">+</button>
+      </div>
+      <div class="contenido">
+        <p>
+          Netflix es flexible. Sin contratos molestos ni compromisos. Cancela la membresía online con solo dos clics. No hay cargos por cancelación. Empieza y termina cuando quieras.
+        </p>
+      </div>
+
+      <div class="preg">
+        <p class="preg-txt">¿Qué puedo ver en Netflix?</p>
+        <button class="simbolo" onclick="mostrar(this)">+</button>
+      </div>
+      <div class="contenido">
+        <p>
+          Netflix tiene un amplio catálogo de películas, series, documentales, animes, originales premiados y más. Todo lo que quieras ver, cuando quieras.
+        </p>
+      </div>
+
+      <div class="preg">
+        <p class="preg-txt">¿Es bueno Netflix para los niños?</p>
+        <button class="simbolo" onclick="mostrar(this)">+</button>
+      </div>
+      <div class="contenido">
+        <p>
+          La experiencia de Netflix para niños está incluida en la membresía para que los padres tengan el control mientras los peques disfrutan series y películas familiares en su propio espacio. <br><br>Los perfiles para niños incluyen controles parentales protegidos por PIN que te permiten restringir el contenido que pueden ver los niños en función de la clasificación por edad y bloquear determinados títulos que no quieras que los niños vean.
+        </p>
       </div>
     </div>
 
@@ -137,44 +210,47 @@
       ¿Quieres ver Netflix ya? Ingresa tu email para crear una cuenta o
       reiniciar tu membresía de Netflix.
     </p>
-   <div class="iniciodesesion">
-     <div class="correo2">
-         <label for="Nombre de Usuario"></label>
-         <input type="text" id="username" placeholder="Email" ><br><br>
-       </div>
-       <div class="ingreso2">
-         <label for="ingreso"></label>
-         <input type="submit" id="ingreso" value="Comenzar  >"><br><br>
-       </div>
+    <div class="iniciodesesion">
+      <div class="correo2">
+        <input type="text" id="username" placeholder="Email" /><br /><br />
       </div>
+      <div class="ingreso2">
+        <input type="submit" id="ingreso" value="Comenzar  >" /><br /><br />
+      </div>
+    </div>
+
     <footer>
-        <div class="contacto"><p>¿Preguntas? Llama al 0800 345 1593</p></div>
-        <div class="ft">
+      <div class="contacto">
+        <p>¿Preguntas? Llama al 0800 345 1593</p>
+      </div>
+      <div class="ft">
         <div class="ft1">
-<p>Preguntas frecuentes</p>
-<p>Relaciones con inversionistas</p>
-<p>Privacidad</p>
-<p>Prueba de velocidad</p>
+          <p>Preguntas frecuentes</p>
+          <p>Relaciones con inversionistas</p>
+          <p>Privacidad</p>
+          <p>Prueba de velocidad</p>
         </div>
         <div class="ft2">
-<p>Centro de ayuda</p>
-<p>Empleo</p>
-<p>Preferencias de cookies</p>
-<p>Avisos legales</p>
+          <p>Centro de ayuda</p>
+          <p>Empleo</p>
+          <p>Preferencias de cookies</p>
+          <p>Avisos legales</p>
         </div>
         <div class="ft3">
           <p>Cuenta</p>
-          <p>Formas de ver</p>  
-          <p>Información corporativa</p>  
+          <p>Formas de ver</p>
+          <p>Información corporativa</p>
           <p>Solo en Netflix</p>
         </div>
         <div class="ft4">
-<p>Prensa</p>
-<p>Términos de uso</p>
-<p>Contáctanos</p>
+          <p>Prensa</p>
+          <p>Términos de uso</p>
+          <p>Contáctanos</p>
         </div>
-        </div>
-    </footer>   
-      
-</body>
+      </div>
+    </footer>
+
+    <script src="carrousel.js"></script>
+    <script src="preguntas.js"></script>
+  </body>
 </html>
